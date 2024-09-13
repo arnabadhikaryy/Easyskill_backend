@@ -11,7 +11,7 @@ userRoutr.post('/change_password',chagepassword);
 userRoutr.post('/store/sms',store_sms)
 userRoutr.get('/all/message',get_all_messages)
 userRoutr.get('/ping',(req,res)=>{
-    res.send('pong')
+    res.send('pong, srever is runing')
 })
 
 export default userRoutr;
