@@ -6,7 +6,7 @@ import cors from "cors"
 const app = express();
 app.use(cors(
   {
-    origin:'https://easyskill.netlify.app'
+    origin:'https://66e42c96df52cb07a1e272b4--easyskill.netlify.app'
 }
 ))//Enable All CORS Requests............
 app.use(express.json());
