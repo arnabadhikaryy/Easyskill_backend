@@ -9,7 +9,7 @@ const surver = createServer(app);
 
 const io=new Server(surver,{
     cors:{
-        origin:'https://66e66692a1ec47326ce384fc--easyskill.netlify.app',
+        origin:'https://66e68d5d2afc1541f7a69560--easyskill.netlify.app',
         methods:['GET','POST'],
         credentials:true,
     },
